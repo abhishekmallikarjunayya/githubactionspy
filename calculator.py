@@ -25,5 +25,13 @@ def main():
     print("Multiplication of two numbers is:", multiply(n1, n2))
     print("Division of two numbers is:", divide(n1, n2))
 
+
+def test_calculator():
+    assert add(3, 2) == 5
+    assert subtract(5, 3) == 2
+    assert multiply(4, 2) == 8
+    assert divide(6, 2) == 3
+    assert divide(5, 0) == "Cannot divide by zero"
+
 if __name__ == "__main__":
     main()
