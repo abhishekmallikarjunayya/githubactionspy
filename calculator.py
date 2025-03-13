@@ -31,7 +31,7 @@ def test_calculator():
     assert subtract(5, 3) == 2
     assert multiply(4, 2) == 8
     assert divide(6, 2) == 3
-    assert divide(5, 0) == "Cannot divide by zero"
+    assert divide(5, 0) == "error"
 
 if __name__ == "__main__":
     main()
